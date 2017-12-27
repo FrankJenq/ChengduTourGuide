@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chengdu Tour Guide</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+
+    <string name="historical_sites">历史景点</string>
+
+    <string name="natural_attractions">自然景点</string>
+
+    <string name="food">天府美食</string>
+
+    <string name="leisure">休闲娱乐</string>
+
+    <string name="historical_sites_details">这是对历史景点的一段描述，作为测试，看是否正确显示</string>
+
+</resources>
