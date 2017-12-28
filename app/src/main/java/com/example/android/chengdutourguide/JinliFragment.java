@@ -20,13 +20,13 @@ public class JinliFragment extends Fragment {
         // Create a list of words
         final ArrayList<Description> descriptions = new ArrayList<Description>();
         descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.jinli_history));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.jinli_nature));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.jinli_food));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.jinli_leisure));
+                getResources().getString(R.string.historical_sites_jinli), R.drawable.jinli_history));
+        descriptions.add(new Description(getResources().getString(R.string.natural_attractions),
+                getResources().getString(R.string.natural_attractions_jinli), R.drawable.jinli_nature));
+        descriptions.add(new Description(getResources().getString(R.string.food),
+                getResources().getString(R.string.food_jinli), R.drawable.jinli_food));
+        descriptions.add(new Description(getResources().getString(R.string.leisure),
+                getResources().getString(R.string.leisure_jinli), R.drawable.jinli_leisure));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

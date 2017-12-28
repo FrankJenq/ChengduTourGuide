@@ -20,13 +20,13 @@ public class ChunxiRoadFragment extends Fragment {
         // Create a list of words
         final ArrayList<Description> descriptions = new ArrayList<Description>();
         descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.chunxiroad_history));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.chunxiroad_nature));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.chunxiroad_food));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.chunxiroad_leisure));
+                getResources().getString(R.string.historical_sites_chunxiroad), R.drawable.chunxiroad_history));
+        descriptions.add(new Description(getResources().getString(R.string.natural_attractions),
+                getResources().getString(R.string.natural_attractions_chunxiroad), R.drawable.chunxiroad_nature));
+        descriptions.add(new Description(getResources().getString(R.string.food),
+                getResources().getString(R.string.food_chunxiroad), R.drawable.chunxiroad_food));
+        descriptions.add(new Description(getResources().getString(R.string.leisure),
+                getResources().getString(R.string.leisure_chunxiroad), R.drawable.chunxiroad_leisure));
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_chunxiroad);

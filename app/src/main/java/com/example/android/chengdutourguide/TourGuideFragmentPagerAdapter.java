@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
     final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[]{"历史景点", "自然景区", "天府美食", "休闲活动"};
+    private String tabTitles[] = new String[]{"锦里", "春熙路", "青城山", "洛带古镇"};
 
     public TourGuideFragmentPagerAdapter(FragmentManager fm) {
         super(fm);

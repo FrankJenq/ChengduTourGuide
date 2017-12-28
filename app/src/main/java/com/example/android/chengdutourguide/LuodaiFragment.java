@@ -20,13 +20,13 @@ public class LuodaiFragment extends Fragment {
         // Create a list of words
         final ArrayList<Description> descriptions = new ArrayList<Description>();
         descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.luodai_history));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.luodai_nature));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.luodai_food));
-        descriptions.add(new Description(getResources().getString(R.string.historical_sites),
-                getResources().getString(R.string.historical_sites_details), R.drawable.luodai_leisure));
+                getResources().getString(R.string.historical_sites_luodai), R.drawable.luodai_history));
+        descriptions.add(new Description(getResources().getString(R.string.natural_attractions),
+                getResources().getString(R.string.natural_attractions_luodai), R.drawable.luodai_nature));
+        descriptions.add(new Description(getResources().getString(R.string.food),
+                getResources().getString(R.string.food_luodai), R.drawable.luodai_food));
+        descriptions.add(new Description(getResources().getString(R.string.leisure),
+                getResources().getString(R.string.leisure_luodai), R.drawable.luodai_leisure));
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         DescriptionAdapter adapter = new DescriptionAdapter(getActivity(), descriptions, R.color.category_luodai);
