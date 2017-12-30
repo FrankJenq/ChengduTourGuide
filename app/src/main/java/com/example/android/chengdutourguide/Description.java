@@ -34,7 +34,7 @@ public class Description {
     }
 
     /**
-     * Gets the string value of the details.
+     * Gets the string value of the detail.
      *
      * @return current text of mDetail.
      */

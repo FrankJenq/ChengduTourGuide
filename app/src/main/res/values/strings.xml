@@ -41,4 +41,11 @@
 
     <string name="leisure_luodai">艺库广场，圣礼堂，九龙柱广场</string>
 
+    <string-array name="titles">
+        <item>锦里</item>
+        <item>春熙路</item>
+        <item>青城山</item>
+        <item>洛带古镇</item>
+    </string-array>
+
 </resources>

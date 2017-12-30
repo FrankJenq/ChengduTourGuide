@@ -25,8 +25,8 @@
     </style>
 
     <style name="TabStyle">
-        <item name="tabIndicatorColor">#FFF</item>
-        <item name="tabSelectedTextColor">#FFF</item>
-        <item name="android:background">#4A312A</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="android:background">@color/primary_color</item>
     </style>
 </resources>

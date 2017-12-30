@@ -1,5 +1,6 @@
 package com.example.android.chengdutourguide;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -8,11 +9,14 @@ import android.support.v4.app.FragmentPagerAdapter;
  * Provides the appropriate {@link Fragment} for a view pager.
  */
 public class TourGuideFragmentPagerAdapter extends FragmentPagerAdapter {
-    final int PAGE_COUNT = 4;
-    private String tabTitles[] = new String[]{"锦里", "春熙路", "青城山", "洛带古镇"};
+    private final int PAGE_COUNT = 4;
+    private String tabTitles[] = new String[PAGE_COUNT];
 
-    public TourGuideFragmentPagerAdapter(FragmentManager fm) {
+    public TourGuideFragmentPagerAdapter(Context context,FragmentManager fm) {
         super(fm);
+        for (int i = 0; i < PAGE_COUNT; i++) {
+            tabTitles[i] = context.getResources().getStringArray(R.array.titles)[i];
+        }
     }
 
     /**

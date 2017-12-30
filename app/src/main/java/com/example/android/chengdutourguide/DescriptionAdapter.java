@@ -1,7 +1,6 @@
 package com.example.android.chengdutourguide;
 
 import android.app.Activity;
-import android.media.MediaPlayer;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,8 +26,6 @@ public class DescriptionAdapter extends ArrayAdapter<Description> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // The MediaPlayer used in every list item
-        final MediaPlayer musicPlayer;
 
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
