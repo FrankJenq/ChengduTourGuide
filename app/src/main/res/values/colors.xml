@@ -20,4 +20,5 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_qingchengshan">#FFC107</color>
+    <color name="color_tab_text">#70FFFFFF</color>
 </resources>
